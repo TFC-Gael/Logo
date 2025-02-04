@@ -19,7 +19,7 @@ logos <- c("AJA.png", "ASM.png", "ASSE.png", "FCM.png", "FCN.png", "L1.png", "LO
 # Create a data frame with image URLs
 data <- data.frame(
   Name = gsub(".png", "", logos),
-  Logo = glue("<img src='{repo_url}{logos}' height='100'>")
+  Logo = glue("<div style='text-align: center;'><img src='{repo_url}{logos}' height='100'>")
 )
 
 # Generate the table
@@ -51,29 +51,34 @@ for (logo in logos) {
 - An additional script is included to download all the logos automatically.
 
 ### Example Output
+
+<div align="center">
+
 | Name | Logo |
 |------|------|
-| AJA  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/AJA.png' height='80'> |
-| ASM  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/ASM.png' height='80'> |
-| ASSE | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/ASSE.png' height='80'> |
-| FCM  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/FCM.png' height='80'> |
-| FCN  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/FCN.png' height='80'> |
-| L1   | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/L1.png' height='80'> |
-| LOSC | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/LOSC.png' height='80'> |
-| MHSC | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/MHSC.png' height='80'> |
-| MHSC50 | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/MHSC50.png' height='80'> |
-| OGCN | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OGCN.png' height='80'> |
-| OL   | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OL.png' height='80'> |
-| OM   | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OM.png' height='80'> |
-| PSG  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/PSG.png' height='80'> |
-| RCL  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/RCL.png' height='80'> |
-| RCS  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/RCS.png' height='80'> |
-| SB29 | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SB29.png' height='80'> |
-| SCO  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SCO.png' height='80'> |
-| SDR  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SDR.png' height='80'> |
-| SDR2 | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SDR2.png' height='80'> |
-| SRFC | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SRFC.png' height='80'> |
-| TFC  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/TFC.png' height='80'> |
+| AJA  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/AJA.png' height='80'></div> |
+| ASM  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/ASM.png' height='80'></div> |
+| ASSE | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/ASSE.png' height='80'></div> |
+| FCM  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/FCM.png' height='80'></div> |
+| FCN  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/FCN.png' height='80'></div> |
+| L1   | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/L1.png' height='80'></div> |
+| LOSC | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/LOSC.png' height='80'></div> |
+| MHSC | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/MHSC.png' height='80'></div> |
+| MHSC50 | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/MHSC50.png' height='80'></div> |
+| OGCN | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OGCN.png' height='80'></div> |
+| OL   | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OL.png' height='80'></div> |
+| OM   | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OM.png' height='80'></div> |
+| PSG  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/PSG.png' height='80'></div> |
+| RCL  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/RCL.png' height='80'></div> |
+| RCS  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/RCS.png' height='80'></div> |
+| SB29 | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SB29.png' height='80'></div> |
+| SCO  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SCO.png' height='80'></div> |
+| SDR  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SDR.png' height='80'></div> |
+| SDR2 | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SDR2.png' height='80'></div> |
+| SRFC | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SRFC.png' height='80'></div> |
+| TFC  | <div style='text-align: center;'><img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/TFC.png' height='80'></div> |
+
+</div>
 
 This README will help users generate and display logos dynamically in a table using R and also download them easily.
 
