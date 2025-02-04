@@ -53,27 +53,27 @@ for (logo in logos) {
 ### Example Output
 | Name | Logo |
 |------|------|
-| AJA  | ![AJA](https://raw.githubusercontent.com/TFC-Gael/Logo/main/AJA.png) |
-| ASM  | ![ASM](https://raw.githubusercontent.com/TFC-Gael/Logo/main/ASM.png) |
-| ASSE | ![ASSE](https://raw.githubusercontent.com/TFC-Gael/Logo/main/ASSE.png) |
-| FCM  | ![FCM](https://raw.githubusercontent.com/TFC-Gael/Logo/main/FCM.png) |
-| FCN  | ![FCN](https://raw.githubusercontent.com/TFC-Gael/Logo/main/FCN.png) |
-| L1   | ![L1](https://raw.githubusercontent.com/TFC-Gael/Logo/main/L1.png) |
-| LOSC | ![LOSC](https://raw.githubusercontent.com/TFC-Gael/Logo/main/LOSC.png) |
-| MHSC | ![MHSC](https://raw.githubusercontent.com/TFC-Gael/Logo/main/MHSC.png) |
-| MHSC50 | ![MHSC50](https://raw.githubusercontent.com/TFC-Gael/Logo/main/MHSC50.png) |
-| OGCN | ![OGCN](https://raw.githubusercontent.com/TFC-Gael/Logo/main/OGCN.png) |
-| OL   | ![OL](https://raw.githubusercontent.com/TFC-Gael/Logo/main/OL.png) |
-| OM   | ![OM](https://raw.githubusercontent.com/TFC-Gael/Logo/main/OM.png) |
-| PSG  | ![PSG](https://raw.githubusercontent.com/TFC-Gael/Logo/main/PSG.png) |
-| RCL  | ![RCL](https://raw.githubusercontent.com/TFC-Gael/Logo/main/RCL.png) |
-| RCS  | ![RCS](https://raw.githubusercontent.com/TFC-Gael/Logo/main/RCS.png) |
-| SB29 | ![SB29](https://raw.githubusercontent.com/TFC-Gael/Logo/main/SB29.png) |
-| SCO  | ![SCO](https://raw.githubusercontent.com/TFC-Gael/Logo/main/SCO.png) |
-| SDR  | ![SDR](https://raw.githubusercontent.com/TFC-Gael/Logo/main/SDR.png) |
-| SDR2 | ![SDR2](https://raw.githubusercontent.com/TFC-Gael/Logo/main/SDR2.png) |
-| SRFC | ![SRFC](https://raw.githubusercontent.com/TFC-Gael/Logo/main/SRFC.png) |
-| TFC  | ![TFC](https://raw.githubusercontent.com/TFC-Gael/Logo/main/TFC.png) |
+| AJA  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/AJA.png' height='80'> |
+| ASM  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/ASM.png' height='80'> |
+| ASSE | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/ASSE.png' height='80'> |
+| FCM  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/FCM.png' height='80'> |
+| FCN  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/FCN.png' height='80'> |
+| L1   | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/L1.png' height='80'> |
+| LOSC | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/LOSC.png' height='80'> |
+| MHSC | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/MHSC.png' height='80'> |
+| MHSC50 | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/MHSC50.png' height='80'> |
+| OGCN | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OGCN.png' height='80'> |
+| OL   | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OL.png' height='80'> |
+| OM   | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/OM.png' height='80'> |
+| PSG  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/PSG.png' height='80'> |
+| RCL  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/RCL.png' height='80'> |
+| RCS  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/RCS.png' height='80'> |
+| SB29 | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SB29.png' height='80'> |
+| SCO  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SCO.png' height='80'> |
+| SDR  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SDR.png' height='80'> |
+| SDR2 | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SDR2.png' height='80'> |
+| SRFC | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/SRFC.png' height='80'> |
+| TFC  | <img src='https://raw.githubusercontent.com/TFC-Gael/Logo/main/TFC.png' height='80'> |
 
 This README will help users generate and display logos dynamically in a table using R and also download them easily.
 
